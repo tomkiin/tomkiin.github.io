@@ -1,0 +1,193 @@
+<h2 id="基本的带快捷键的-markdown-书写演示"><strong>基本的带快捷键的 Markdown 书写演示</strong></h2>
+
+<p><code class="highlighter-rouge">command 1 到 command 6：</code>普通文本，一级～四级标题；</p>
+
+<p><code class="highlighter-rouge">command B：</code>加粗，<strong>加粗测试；</strong></p>
+
+<p><code class="highlighter-rouge">command I：</code>斜体，<em>斜体测试；</em></p>
+
+<p><code class="highlighter-rouge">command U：</code>下划线，<u>下划线测试；</u></p>
+
+<p><code class="highlighter-rouge">control shift </code>：`删除线，<del>删除线测试；</del></p>
+
+<p><code class="highlighter-rouge">control ：</code>代码，<code class="highlighter-rouge">代码测试；</code></p>
+
+<p><code class="highlighter-rouge">command K：</code>超链接，<a href="www.baidu.com">超链接测试</a></p>
+
+<p><code class="highlighter-rouge">option command T：</code>表格</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">标题</th>
+      <th style="text-align: center">数据一</th>
+      <th style="text-align: center">数据二</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">表格测试</td>
+      <td style="text-align: center">942</td>
+      <td style="text-align: center">baka</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="highlighter-rouge">option command Q：</code>引用</p>
+
+<blockquote>
+  <p>引用测试；</p>
+</blockquote>
+
+<p><code class="highlighter-rouge">control command I：</code>插入图片</p>
+
+<p><img src="https://i0.hdslb.com/bfs/archive/e2b4824ce05adb3f2fa6da4fdb344711985e7edd.jpg" alt="pop子" /></p>
+
+<p><code class="highlighter-rouge">option command B：</code>数学公式
+<script type="math/tex">\int_a^b f(x)\mathrm{d}x</script></p>
+
+<h2 id="基本的不带快捷键-markdown-书写演示"><strong>基本的不带快捷键 markdown 书写演示</strong></h2>
+
+<p><strong>部分功能需要在配置文件中开始才能使用</strong></p>
+
+<p>代码块：三个反引号</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/python3
+</span><span class="kn">import</span> <span class="nn">os</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'list.txt'</span><span class="p">,</span><span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">writelines</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'成功写入数列'</span><span class="p">)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s">'rm ./list.txt'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'成功删除文件'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>无序列表：一个短横，-</p>
+
+<ul>
+  <li>酒石酸菌</li>
+  <li>硝酸甘油酯</li>
+</ul>
+
+<p>有序列表：数字加点 .</p>
+
+<ol>
+  <li>python</li>
+  <li>java</li>
+  <li>golang</li>
+</ol>
+
+<p>任务列表：option command X</p>
+
+<ul class="task-list">
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />买菜</p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />看书</p>
+  </li>
+</ul>
+
+<p>引用：[^]，里面加上引用数字，后面跟冒号，引用内容</p>
+
+<p>​	通过培养实验研究了有机酸对铅、镉的毒害影响，结果表明柠檬酸对铅<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>上标下标</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>上标：X2^2
+下标:H~2~O
+</code></pre></div></div>
+
+<p>X^2^</p>
+
+<p>H~2~O</p>
+
+<p>高亮</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>本节课重点：==第六、七章补考==，第三章出题较多，==平时分占 30%==
+</code></pre></div></div>
+
+<p>本节课重点：==第六、七章补考==，第三章出题较多，==平时分占 30%==</p>
+
+<p>注释：control -</p>
+
+<!--这是一段注释-->
+
+<p>分割线 —</p>
+
+<hr />
+
+<p>emoji，冒号，后面输入emoji名字</p>
+
+<p>:kissing_smiling_eyes:</p>
+
+<p>目录生成：[toc]</p>
+
+<p>[TOC]</p>
+
+<p>LaTex公式，包括mhchem，AMSmath，BBox：</p>
+
+<ul>
+  <li>mhchem：</li>
+</ul>
+
+<script type="math/tex; mode=display">\ce{SO4^2- +Ba^2+ -> BaSO4 v}</script>
+
+<ul>
+  <li>Box:</li>
+</ul>
+
+<script type="math/tex; mode=display">\bbox[5px,border:2px solid red]{AB^2 + AC^2 = BC^2}</script>
+
+<p>流程图</p>
+
+<ul>
+  <li>flow</li>
+</ul>
+
+<pre><code class="language-flow">st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch somethins...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+</code></pre>
+
+<ul>
+  <li>mermaid</li>
+</ul>
+
+<pre><code class="language-mermaid">graph TD
+开始--&gt;B
+A--&gt;C
+B--&gt;D
+C--&gt;D
+A--&gt;D
+开始--&gt;C
+开始--&gt;A
+D--&gt;结束
+</code></pre>
+
+<ul>
+  <li>Sequence</li>
+</ul>
+
+<pre><code class="language-sequence">Alice-&gt;&gt;John: Hello John, how are you?
+Note right of John: Rational thoughs
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How are you?
+Bob--&gt;&gt;John: Jolly good!
+</code></pre>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>陈苏。污染土壤中镉、铅的活化及植物有效性研究[D]，中国科学院沈阳应用生态研究所。2007。 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>

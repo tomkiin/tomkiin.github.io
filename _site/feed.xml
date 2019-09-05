@@ -5,9 +5,212 @@
     <description>Vno Jekyll is a port of my Ghost theme vno.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Sep 2019 22:57:53 +0800</pubDate>
-    <lastBuildDate>Thu, 05 Sep 2019 22:57:53 +0800</lastBuildDate>
+    <pubDate>Thu, 05 Sep 2019 23:00:25 +0800</pubDate>
+    <lastBuildDate>Thu, 05 Sep 2019 23:00:25 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Demo</title>
+        <description>&lt;h2 id=&quot;基本的带快捷键的-markdown-书写演示&quot;&gt;&lt;strong&gt;基本的带快捷键的 Markdown 书写演示&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command 1 到 command 6：&lt;/code&gt;普通文本，一级～四级标题；&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command B：&lt;/code&gt;加粗，&lt;strong&gt;加粗测试；&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command I：&lt;/code&gt;斜体，&lt;em&gt;斜体测试；&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command U：&lt;/code&gt;下划线，&lt;u&gt;下划线测试；&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;control shift &lt;/code&gt;：`删除线，&lt;del&gt;删除线测试；&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;control ：&lt;/code&gt;代码，&lt;code class=&quot;highlighter-rouge&quot;&gt;代码测试；&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command K：&lt;/code&gt;超链接，&lt;a href=&quot;www.baidu.com&quot;&gt;超链接测试&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;option command T：&lt;/code&gt;表格&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;标题&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;数据一&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;数据二&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;表格测试&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;942&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baka&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;option command Q：&lt;/code&gt;引用&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;引用测试；&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;control command I：&lt;/code&gt;插入图片&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i0.hdslb.com/bfs/archive/e2b4824ce05adb3f2fa6da4fdb344711985e7edd.jpg&quot; alt=&quot;pop子&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;option command B：&lt;/code&gt;数学公式
+&lt;script type=&quot;math/tex&quot;&gt;\int_a^b f(x)\mathrm{d}x&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;基本的不带快捷键-markdown-书写演示&quot;&gt;&lt;strong&gt;基本的不带快捷键 markdown 书写演示&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;部分功能需要在配置文件中开始才能使用&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;代码块：三个反引号&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/python3
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'list.txt'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'w'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;writelines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'成功写入数列'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'rm ./list.txt'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'成功删除文件'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;无序列表：一个短横，-&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;酒石酸菌&lt;/li&gt;
+  &lt;li&gt;硝酸甘油酯&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有序列表：数字加点 .&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;python&lt;/li&gt;
+  &lt;li&gt;java&lt;/li&gt;
+  &lt;li&gt;golang&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;任务列表：option command X&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;买菜&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;看书&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;引用：[^]，里面加上引用数字，后面跟冒号，引用内容&lt;/p&gt;
+
+&lt;p&gt;​	通过培养实验研究了有机酸对铅、镉的毒害影响，结果表明柠檬酸对铅&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;上标下标&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;上标：X2^2
+下标:H~2~O
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;X^2^&lt;/p&gt;
+
+&lt;p&gt;H~2~O&lt;/p&gt;
+
+&lt;p&gt;高亮&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;本节课重点：==第六、七章补考==，第三章出题较多，==平时分占 30%==
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;本节课重点：==第六、七章补考==，第三章出题较多，==平时分占 30%==&lt;/p&gt;
+
+&lt;p&gt;注释：control -&lt;/p&gt;
+
+&lt;!--这是一段注释--&gt;
+
+&lt;p&gt;分割线 —&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;emoji，冒号，后面输入emoji名字&lt;/p&gt;
+
+&lt;p&gt;:kissing_smiling_eyes:&lt;/p&gt;
+
+&lt;p&gt;目录生成：[toc]&lt;/p&gt;
+
+&lt;p&gt;[TOC]&lt;/p&gt;
+
+&lt;p&gt;LaTex公式，包括mhchem，AMSmath，BBox：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mhchem：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\ce{SO4^2- +Ba^2+ -&gt; BaSO4 v}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Box:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bbox[5px,border:2px solid red]{AB^2 + AC^2 = BC^2}&lt;/script&gt;
+
+&lt;p&gt;流程图&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;flow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: Start:&amp;gt;http://www.google.com[blank]
+e=&amp;gt;end:&amp;gt;http://www.google.com
+op1=&amp;gt;operation: My Operation
+sub1=&amp;gt;subroutine: My Subroutine
+cond=&amp;gt;condition: Yes
+or No?:&amp;gt;http://www.google.com
+io=&amp;gt;inputoutput: catch somethins...
+
+st-&amp;gt;op1-&amp;gt;cond
+cond(yes)-&amp;gt;io-&amp;gt;e
+cond(no)-&amp;gt;sub1(right)-&amp;gt;op1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mermaid&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD
+开始--&amp;gt;B
+A--&amp;gt;C
+B--&amp;gt;D
+C--&amp;gt;D
+A--&amp;gt;D
+开始--&amp;gt;C
+开始--&amp;gt;A
+D--&amp;gt;结束
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sequence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-sequence&quot;&gt;Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+Note right of John: Rational thoughs
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How are you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;陈苏。污染土壤中镉、铅的活化及植物有效性研究[D]，中国科学院沈阳应用生态研究所。2007。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 05 Sep 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/09/demo/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/demo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hello World - Vno</title>
