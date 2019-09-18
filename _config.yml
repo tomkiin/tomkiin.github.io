@@ -1,8 +1,8 @@
 # Basic
 title: Tomkiin的个人博客
 subtitle: Tomkiin的个人博客
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
+welcome_message: <a href="https://static.hfi.me/mikutap/" target="_blank">Miku Tap</a>
+description: 文章看累了？点击下方链接轻松一下吧 ⬇⬇⬇
 creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://vno.onevcat.com"
@@ -13,7 +13,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: slate
+cover_color: blue
 
 # The blog button should not be removed.
 blog_button:
